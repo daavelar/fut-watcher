@@ -43,7 +43,6 @@ class CreatePlayer extends Command
         $purchase_price = $this->ask('Purchase price');
         $url = $this->ask('Url in futbin');
 
-
         $player = Player::create([
             'name'           => $name,
             'purchase_price' => $purchase_price,
